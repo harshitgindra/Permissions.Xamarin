@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Permissions" x:Class="Permissions.MainPage">
+    <StackLayout Padding="0,25,0,0">
+        <!-- Place new controls here -->
+        <Button x:Name="CalendarButton" Text="Calendar" Clicked="Handle_Clicked" CommandParameter="1">
+        </Button>
+        <Button x:Name="CameraButton" Text="Camera" Clicked="Handle_Clicked" CommandParameter="2">
+        </Button>
+        <Button x:Name="ContactsButton" Text="Contacts" Clicked="Handle_Clicked" CommandParameter="3">
+        </Button>
+        <Button x:Name="PhoneButton" Text="Phone" Clicked="Handle_Clicked" CommandParameter="6">
+        </Button>
+        <Button x:Name="StorageButton" Text="Storage" Clicked="Handle_Clicked" CommandParameter="11">
+        </Button>
+    </StackLayout>
+</ContentPage>
